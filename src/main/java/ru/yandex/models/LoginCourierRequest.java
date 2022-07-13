@@ -1,15 +1,13 @@
-package Models;
+package ru.yandex.models;
 
-public class CreateCourierRequest {
+public class LoginCourierRequest {
 
     private String login;
     private String password;
-    private String firstName;
 
-    public CreateCourierRequest(String login, String password, String firstName) {
+    public LoginCourierRequest(String login, String password) {
         this.login = login;
         this.password = password;
-        this.firstName = firstName;
     }
 
     public String getLogin() {
@@ -26,13 +24,5 @@ public class CreateCourierRequest {
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
     }
 }

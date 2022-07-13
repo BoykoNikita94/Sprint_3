@@ -1,4 +1,4 @@
-package Models;
+package ru.yandex.models;
 
 public class Order {
 
@@ -56,7 +56,6 @@ public class Order {
         this.color = color;
     }
 
-
     public String getFirstName() {
         return firstName;
     }
@@ -96,5 +95,4 @@ public class Order {
     public void setPhone(String phone) {
         this.phone = phone;
     }
-
 }
