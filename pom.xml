@@ -41,7 +41,7 @@
             <artifactId>gson</artifactId>
             <version>2.9.0</version>
         </dependency>
-    </dependencies>
+    </dependencies>    // для загрузки в репу
 
     <build>
         <pluginManagement>
